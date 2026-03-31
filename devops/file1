@@ -5,3 +5,11 @@ num2 = float(input("Enter second number: "))
 print(f"The sum is: {num1 + num2}")
 
 */
+
+/*** CODE --2
+
+word = input("Enter a word: ")
+if word == word[::-1]:
+    print("It's a palindrome!")
+
+**/
