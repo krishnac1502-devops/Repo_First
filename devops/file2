@@ -1,0 +1,12 @@
+/*** CODE --2
+
+import random
+target = random.randint(1, 100)
+while True:
+    guess = int(input("Guess the number (1-100): "))
+    if guess == target:
+        print("Correct!")
+        break
+    print("Too high!" if guess > target else "Too low!")
+
+***/
